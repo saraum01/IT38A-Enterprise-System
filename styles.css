@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #00838f; /* Teal color */
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: left;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #004d56; /* Darker teal */
+}
+
+.sidebar .dropdown {
+    position: relative;
+}
+
+.sidebar .dropdown-menu {
+    display: none;
+    list-style-type: none;
+    background-color: #004d56; /* Darker teal for dropdown */
+    position: absolute;
+    left: 250px;
+    top: 0;
+    width: 250px;
+}
+
+.sidebar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.sidebar .dropdown-menu li {
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar .dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.sidebar .dropdown-menu li a:hover {
+    background-color: #0097a7; /* Slightly lighter teal */
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    flex-grow: 1;
+    background-color: #ffffff;
+    color: #333; /* Dark gray text */
+    border-top: 5px solid #00838f; /* Teal accent on top */
+}
+
+h1 {
+    color: #00695c; /* Deep teal color */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
