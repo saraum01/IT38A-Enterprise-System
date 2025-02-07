@@ -1,6 +1,6 @@
-          -----  Comparative Analysis of Successful and Failed Enterprise System Implementations   ------
+A. Research Tttle: Comparative Analysis of Successful and Failed Enterprise System Implementations   ------
 
- Case Study 1: Oracle Corporation
+B. Case Study 1: Oracle Corporation
 Company Overview:
 Oracle enterprise systems are implemented to improve business efficiency, automate processes, and ensure data accuracy across departments. 
 These systems help organizations reduce IT complexity and total cost of ownership by integrating compute, storage, and software—such as Oracle Database. 
@@ -19,13 +19,13 @@ Data Accuracy & Integration – Smooth migration and system compatibility.
 Training & Support – Equipping employees for effective system use.  
 Scalability & Security – Ensuring long-term growth and data protection.  
 
-Outcomes & Impact:  
+ Outcomes & Impact:  
 Efficiency Gains – Automates operations, reducing costs.  
 Better Decision-Making – Real-time data and analytics.  
 Security & Compliance – Stronger data protection and regulatory adherence.  
 Scalability – Supports business expansion with cloud flexibility.
 
-Case study 2: City of Victoria SAP ERP Failure (2012)
+C. Case study 2: City of Victoria SAP ERP Failure (2012)
 Company Overview:
 The City of Victoria, Canada, implemented SAP ERP in 2012 to modernize financial management, HR, and administrative processes. 
 The goal was to replace outdated systems, improve efficiency, centralize data, and enhance transparency. 
@@ -46,3 +46,23 @@ $45 million lost in the failed project.
 System crashes led to delays in financial processes.
 The project was scrapped, and the city chose an alternate ERP solution.
 Reputation damage and a revised approach to future IT projects.
+
+D. Comparative Analysis of Successful and Failed Enterprise System Implementations
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+|           ASPECTS               |     Oracle Corporation (Success)                |         City of Victoria SAP ERP (Failure)                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------
+|Company Overview                 | Implemented Oracle ERP to improve efficiency,   |      Implemented SAP ERP to modernize financial management  |
+|                                 | automate processes, and ensure data accuracy.   |       and administrative processes.                         |
+--------------------------------------------------------------------------------------------------------------------------------------------------                            
+|  Reason for Implementation      | Reduce IT complexity, streamline operations,    |    Replace outdated systems, improve efficiency,            |
+|                                 |  and lower costs.                               |     and centralize data.                                    |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Implementation Process          | Well-planned phases: Assessment, Integration,   |  Poor planning, rushed implementation, inadequate testing.  |
+|                                 |    Testing, Deployment.                         |                                                             |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Challenges                      |  Managed integration complexity, ensured        | Data migration issues, system crashes, poor training.       |
+|                                 |     compatibility.                              |                                                             |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+                                 
